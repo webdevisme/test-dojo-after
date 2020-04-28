@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "jsxFactory": "tsx",
+    "lib": ["dom", "es2017"],
+    "module": "es6",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "removeComments": false,
+    "importHelpers": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es6",
+    "types": ["intern", "node"]
+  },
+  "include": [
+    "./src/**/*.js",
+    "./src/**/*.ts",
+    "./tests/**/*.ts",
+    "./src/**/*.tsx",
+    "./tests/**/*.tsx"
+  ]
+}
